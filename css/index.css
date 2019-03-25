@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background:
+     white; 
+}
+
+#logo a {
+	text-align: center;
+	color: green;
+	font-size: 2.5rem;
+}
+
+header{
+	text-align: center;
+	height:70px;
+	color: red;
+}
+
+nav {
+	overflow: hidden;
+	float: right;
+}
+
+
+main {
+    text-align: center;
+    color: black;
+}
+
