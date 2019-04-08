@@ -19,7 +19,7 @@ h1, h2, h3,div, nav {
 }
 
 header .logo {
-	font-size: 80px;
+	font-size: 60px;
 	font-family: 'Lobster', sans-serif;
 	text-align: center;
 	margin: 16px 8px;
@@ -58,6 +58,7 @@ header .menu li a:hover {
 
     header nav .menu {
 	     flex: 1;
+    }
 }
 
 header .banner {
@@ -67,16 +68,15 @@ header .banner {
 	background-position: center;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	flex-direction: column;
 }
 
 header .banner h1 {
-	color: blue;
+	color: white;
 	font-size: 4rem;
 	display: flex;
 	text-align: center;
-	align-items:flex-start;
 	font-family: 'EB+Garamond';
 }
 

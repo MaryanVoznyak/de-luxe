@@ -18,7 +18,7 @@
                 <li><a href="#догляд-за-тілом">Догляд за тілом</li>
                 <li><a href="#розхідні-матеріали">Розхідні матеріали</a></li>
                 <li><a href="delivery.html">Оплата і доставка</a></li>
-                <li><a href="contact.html">Контакти</a></a></li>
+                <li><a href="contact.html">Контакти</a></li>
             </ul>
         </nav>
         <div class="banner">
@@ -29,7 +29,7 @@
         </div>
     </header>
     
-    <!--   
+  <!-- 
     <header>
         <div id="logo">
             <span>
@@ -89,6 +89,59 @@
     <footer>
         <p>Авторське право</p>
     </footer>
-    -->
+-->
+    
+    <p>Момент завантаження сторінки <span class="page-loaded"</span></p>
+    
+    <section>
+        <h1>AJAX HTML Sample</h1>
+        <div class="html-placeholder"></div>
+        <button class="get-html-ajax">Отримати HTML за допомогою AJAX</button>
+    </section>
+    
+    <p>Формочка, що зберігає дані в LocalStorage</p>
+    <form>
+        <textarea rows="15" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Зберегти">
+        <input class="load" type="button" value="Завантажити">
+    </form>
+    
+    <p>AJAX/FETCH</p>
+    <section>
+        <h1>AJAX JSON Sample</h1>
+        <div>
+            <p>Ім'я клієнта: <span class="client-name"></span></p>
+            <p>Коштів на рахунку: <span class="account-balance"></span></p>
+        </div>
+        <button class="get-json-ajax">GET HTML with AJAX</button> 
+        <button class="fetch-json">Fetch JSON</button>
+    </section>
+    
+    <section>
+        <h1>Form Sample</h1>
+        <form class="login-form">
+            <label>Name: <input type="text" name="name"></label>
+            <label>Password: <input type="password" name="password"></label>
+            <input type="submit">
+        </form>
+        <div class="server-response"></div>
+    </section>
+    
+    <!-- Minfin.com.ua calc informer 200x112 yellow-->
+    <div id="minfin-informer-m1Fn-calc">Завантажуємо <a href="https://minfin.com.ua/ua/currency/"
+        target="_blank">курси валют</a> від minfin.com.ua</a>
+    </div>
+    <script>
+       var iframe = '<ifra'+'me width="200" height="112" fram'+'eborder="0" src="https://informer.minfin.com.ua/ua/gen/calc/nbu/?color=yellow" vspace="0" scrolling="no" hspace="0" allowtransparency="true"style="width:200px;height:112px;ove'+'rflow:hidden;"></iframe>';var cl = 'minfin-informer-m1Fn-calc';document.getElementById(cl).innerHTML = iframe;
+    </script>
+    <noscript>
+       <img src="https://informer.minfin.com.ua/gen/img.png" width="1" height="1" alt="minfin.com.ua: курси валют" title="Курс валют" border="0" />
+    </noscript>
+<!-- Minfin.com.ua calc informer 200x112 yellow-->
+
+
+    
+    <script src="js/index.js"></script>
 </body>
 </html>
