@@ -1,147 +1,281 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Де Люкс</title>
+    <title>Де-Люкс</title>
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <p class="logo">De Luxe</p>
-            <ul class="menu">
-                <li><a href="#головна">Головна</a></li>
-                <li><a href="#цукрові-пасти">Цукрові пасти</a></li>
-                <li><a href="#догляд-за-тілом">Догляд за тілом</li>
-                <li><a href="#розхідні-матеріали">Розхідні матеріали</a></li>
-                <li><a href="delivery.html">Оплата і доставка</a></li>
-                <li><a href="contact.html">Контакти</a></li>
-            </ul>
-        </nav>
-        <div class="banner">
-            <h1>Все для шугарінгу</h1>
-            <div class="button-container">
-              <button class="button">За покупками!</button>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">De-Luxe</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Головна <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Товари</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="delivery.html">Доставка і оплата</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="articles.html">Статті</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Контакти</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cart"><i class="fas fa-cart-arrow-down"></i> Корзина</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="carusel-slide">
+                <div id="carousel-main" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-main" data-slide-to="1"></li>
+                        <li data-target="#carousel-main" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/main/main1.jpg" class="d-block w-100" alt="золота цукрова паста">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Все для шугарінгу</h5>
+                                <p>Цукрові пасти для професійного застосування</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/main/main2.jpg" class="d-block w-100" alt="тальк гель паста">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Лінійка для догляду за тілом</h5>
+                                <p>Всі необхідні косметичні засоби до і після епіляції</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/main/main3.jpg" class="d-block w-100" alt="паста ультра в картриджі">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Розхідні матеріли</h5>
+                                <p>Набір інструментів, які спростять і полегшать Вашу роботу</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel-main" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-main" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
-        </div>
-    </header>
-    
-  <!-- 
-    <header>
-        <div id="logo">
-            <span>
-                <a href="index.html">De Luxe</a>
-            </span>
-        </div>
-        <h1>Все для шугарінгу</h1>
-        <nav>
-            <a href="#головна">Головна</a>
-            <a href="#цукрові-пасти">Цукрові пасти</a>
-            <a href="#догляд-за-тілом">Догляд за тілом</a>
-            <a href="#розхідні-матеріали">Розхідні матеріали</a>
-            <a href="delivery.html">Доставка і оплата</a>
-            <a href="contact.html">Контакти</a>
-            <img src="img/main.jpg" alt="цукрова паста">
-        </nav>
-    </header>
-    
-    <main>
-        <section id="цукрові-пасти">
-            <h2>Цукрові пасти</h2>
-            <img src="img/s-pasta.jpg" alt="паста">
-            <p>Ultra soft 500 г    1500 грн</p>
-        </section>
-         
-        <section id="догляд-за-тілом">
-            <h2>Догляд за тілом</h2>
-            <img src="img/s-pasta.jpg" alt="паста">
-            <p>Крем для тіла   500 грн</p>
-        </section> 
-        
-        <section id="розхідні-матеріали">
-            <h2>Розхідні матеріали</h2>
-            <img src="img/s-pasta.jpg" alt="паста">
-            <p>Шпателі 100 шт   200 грн</p>
-        </section>
-        
-        <section>
-            <h2>Ми в соцмережах</h2>
-            <img src="img/insta.png" alt="інстаграм">
-            <img src="img/facebook.png" alt="фейсбук">
-        </section>
-        
-        <section>
-            <h2>Дзвоніть</h2>
-            <p>096-733-20-65</p>
-            <p>093-219-51-18</p>
-        </section>
-        
-        
-        <section>
-            <h2>Пишіть</h2>
-            <p>estetkrasa@gmail.com</p>
-        </section>
-    </main>
-    
-    <footer>
-        <p>Авторське право</p>
-    </footer>
--->
-    
-    <p>Момент завантаження сторінки <span class="page-loaded"</span></p>
-    
-    <section>
-        <h1>AJAX HTML Sample</h1>
-        <div class="html-placeholder"></div>
-        <button class="get-html-ajax">Отримати HTML за допомогою AJAX</button>
-    </section>
-    
-    <p>Формочка, що зберігає дані в LocalStorage</p>
-    <form>
-        <textarea rows="15" cols="50"></textarea>
-        <br>
-        <input type="submit" value="Зберегти">
-        <input class="load" type="button" value="Завантажити">
-    </form>
-    
-    <p>AJAX/FETCH</p>
-    <section>
-        <h1>AJAX JSON Sample</h1>
-        <div>
-            <p>Ім'я клієнта: <span class="client-name"></span></p>
-            <p>Коштів на рахунку: <span class="account-balance"></span></p>
-        </div>
-        <button class="get-json-ajax">GET HTML with AJAX</button> 
-        <button class="fetch-json">Fetch JSON</button>
-    </section>
-    
-    <section>
-        <h1>Form Sample</h1>
-        <form class="login-form">
-            <label>Name: <input type="text" name="name"></label>
-            <label>Password: <input type="password" name="password"></label>
-            <input type="submit">
-        </form>
-        <div class="server-response"></div>
-    </section>
-    
-    <!-- Minfin.com.ua calc informer 200x112 yellow-->
-    <div id="minfin-informer-m1Fn-calc">Завантажуємо <a href="https://minfin.com.ua/ua/currency/"
-        target="_blank">курси валют</a> від minfin.com.ua</a>
+        </header>
+        <main>
+            <h2>Товари</h2>
+            <section>
+                <p class="pastu">Цукрові пасти</p>
+            </section>
+            <div id="products" class="row mx-lg-1"> 
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/pasta.jpg" class="card-img-top" alt="цукрова паста">
+                      <div class="card-body">
+                        <h5 class="card-title">Цукрова паста</h5>
+                        <p class="card-text">Паста така-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/pasta.jpg" class="card-img-top" alt="цукрова паста">
+                      <div class="card-body">
+                        <h5 class="card-title">Цукрова паста</h5>
+                        <p class="card-text">Паста така-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/pasta.jpg" class="card-img-top" alt="цукрова паста">
+                      <div class="card-body">
+                        <h5 class="card-title">Цукрова паста</h5>
+                        <p class="card-text">Паста така-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/pasta.jpg" class="card-img-top" alt="цукрова паста">
+                      <div class="card-body">
+                        <h5 class="card-title">Цукрова паста</h5>
+                        <p class="card-text">Паста така-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/pasta.jpg" class="card-img-top" alt="цукрова паста">
+                      <div class="card-body">
+                        <h5 class="card-title">Цукрова паста</h5>
+                        <p class="card-text">Паста така-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/pasta.jpg" class="card-img-top" alt="цукрова паста">
+                      <div class="card-body">
+                        <h5 class="card-title">Цукрова паста</h5>
+                        <p class="card-text">Паста така-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/pasta.jpg" class="card-img-top" alt="цукрова паста">
+                      <div class="card-body">
+                        <h5 class="card-title">Цукрова паста</h5>
+                        <p class="card-text">Паста така-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/pasta.jpg" class="card-img-top" alt="цукрова паста">
+                      <div class="card-body">
+                        <h5 class="card-title">Цукрова паста</h5>
+                        <p class="card-text">Паста така-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                
+            <section>
+                <p class="dohlyad">Догляд за тілом</p>
+            </section>    
+            <div class="row mx-lg-1">
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/milk.jpg" class="card-img-top" alt="молочко">
+                      <div class="card-body">
+                        <h5 class="card-title">Молочко</h5>
+                        <p class="card-text">Молочко таке-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/milk.jpg" class="card-img-top" alt="молочко">
+                      <div class="card-body">
+                        <h5 class="card-title">Молочко</h5>
+                        <p class="card-text">Молочко таке-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/milk.jpg" class="card-img-top" alt="молочко">
+                      <div class="card-body">
+                        <h5 class="card-title">Молочко</h5>
+                        <p class="card-text">Молочко таке-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/milk.jpg" class="card-img-top" alt="молочко">
+                      <div class="card-body">
+                        <h5 class="card-title">Молочко</h5>
+                        <p class="card-text">Молочко таке-то, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+            </div>
+            
+            <section>
+                <p class="other">Розхідні матеріали</p>
+            </section>
+            <div class="row mx-lg-1">
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/spatula.jpg" class="card-img-top" alt="Шпатель з нержавіючої сталі">
+                      <div class="card-body">
+                        <h5 class="card-title">Шпатель</h5>
+                        <p class="card-text">Шпатель з нержавіючої сталі, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/products/cloves.jpg" class="card-img-top" alt="рукавички гумові">
+                      <div class="card-body">
+                        <h5 class="card-title">Рукавички гумові</h5>
+                        <p class="card-text">Рукавички 100 шт, ціна</p>
+                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#productInfo">Інфо</a>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                     </div>
+                </article>
+            </div>
+            
+            <div id="contacts" class="main-contact">
+                <section>
+                    <h2>Ми в соцмережах</h2>
+                    <img src="img/icons/insta.png" alt="інстаграм">
+                    <img src="img/icons/facebook.png" alt="фейсбук">
+                </section>
+                <section>
+                    <h2>Дзвоніть</h2>
+                    <p>096-733-20-65</p>
+                    <p>093-219-51-18</p>
+                </section>
+                <section>
+                    <h2>Пишіть</h2>
+                    <p>estetkrasa@gmail.com</p>
+                </section>
+        </main>
+        <footer>
+           
+        </footer>
     </div>
-    <script>
-       var iframe = '<ifra'+'me width="200" height="112" fram'+'eborder="0" src="https://informer.minfin.com.ua/ua/gen/calc/nbu/?color=yellow" vspace="0" scrolling="no" hspace="0" allowtransparency="true"style="width:200px;height:112px;ove'+'rflow:hidden;"></iframe>';var cl = 'minfin-informer-m1Fn-calc';document.getElementById(cl).innerHTML = iframe;
-    </script>
-    <noscript>
-       <img src="https://informer.minfin.com.ua/gen/img.png" width="1" height="1" alt="minfin.com.ua: курси валют" title="Курс валют" border="0" />
-    </noscript>
-<!-- Minfin.com.ua calc informer 200x112 yellow-->
 
-
+<!-- Modal -->
+<div class="modal fade" id="productInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Інформація</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Хороша паста</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div>
+</div>
     
-    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>

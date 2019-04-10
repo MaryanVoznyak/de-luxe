@@ -1,108 +1,113 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
-
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-
 :root {
-	--main-color: black;
-	--secondary-color: white;
-    font-family: 'EB+Garamond', sans-serif;
-} 
-
-body {
-	max-width: 1000px;
-	margin: auto;
+    scroll-behavior: smooth; 
 }
 
-h1, h2, h3,div, nav {
-	margin: 0;
-	padding: 0;
-}
 
-header .logo {
-	font-size: 60px;
-	font-family: 'Lobster', sans-serif;
-	text-align: center;
-	margin: 16px 8px;
-}
+/*@import url('https://fonts.googleapis.com/css?family=EB+Garamond');*/
 
-header .menu {
-	padding: 0;
-}
+/*@import url('https://fonts.googleapis.com/css?family=Lobster');*/
 
-header .menu {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
+/*:root {*/
+/*	--main-color: black;*/
+/*	--secondary-color: white;*/
+/*    font-family: 'EB+Garamond', sans-serif;*/
+/*} */
 
-header .menu li {
-	display: inline;
-	list-style-type: none;
-}
+/*body {*/
+/*	max-width: 1000px;*/
+/*	margin: auto;*/
+/*}*/
 
-header .menu li a {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: var(--main-color);
-}
+/*h1, h2, h3,div, nav {*/
+/*	margin: 0;*/
+/*	padding: 0;*/
+/*}*/
 
-header .menu li a:hover {
-	text-decoration: underline;
-}
+/*header .logo {*/
+/*	font-size: 60px;*/
+/*	font-family: 'Lobster', sans-serif;*/
+/*	text-align: center;*/
+/*	margin: 16px 8px;*/
+/*}*/
 
-@media (min-width: 500px) {
-	header nav {
-		display: flex;
-		align-items: center;
-	}
+/*header .menu {*/
+/*	padding: 0;*/
+/*}*/
 
-    header nav .menu {
-	     flex: 1;
-    }
-}
+/*header .menu {*/
+/*	display: flex;*/
+/*	justify-content: space-around;*/
+/*	flex-wrap: wrap;*/
+/*}*/
 
-header .banner {
-	background-image: url(../img/main.jpg);
-	min-height: 600px;
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-direction: column;
-}
+/*header .menu li {*/
+/*	display: inline;*/
+/*	list-style-type: none;*/
+/*}*/
 
-header .banner h1 {
-	color: white;
-	font-size: 4rem;
-	display: flex;
-	text-align: center;
-	font-family: 'EB+Garamond';
-}
+/*header .menu li a {*/
+/*	text-decoration: none;*/
+/*	text-transform: uppercase;*/
+/*	color: var(--main-color);*/
+/*}*/
 
-header .banner .button-container {
-	margin-top: 20px;  
-}
+/*header .menu li a:hover {*/
+/*	text-decoration: underline;*/
+/*}*/
 
-.button {
+/*@media (min-width: 500px) {*/
+/*	header nav {*/
+/*		display: flex;*/
+/*		align-items: center;*/
+/*	}*/
+
+/*    header nav .menu {*/
+/*	     flex: 1;*/
+/*    }*/
+/*}*/
+
+/*header .banner {*/
+/*	background-image: url(../img/main.jpg);*/
+/*	min-height: 600px;*/
+/*	background-size: cover;*/
+/*	background-position: center;*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	justify-content: space-between;*/
+/*	flex-direction: column;*/
+/*}*/
+
+/*header .banner h1 {*/
+/*	color: white;*/
+/*	font-size: 4rem;*/
+/*	display: flex;*/
+/*	text-align: center;*/
+/*	font-family: 'EB+Garamond';*/
+/*}*/
+
+/*header .banner .button-container {*/
+/*	margin-top: 20px;  */
+/*}*/
+
+/*.button {*/
     background-color: Green; /* Green */
-    border: none;
-    color: green;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+/*    border: none;*/
+/*    color: green;*/
+/*    padding: 16px 32px;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    display: inline-block;*/
+/*    font-size: 16px;*/
+/*    margin: 4px 2px;*/
     -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: green; 
-    color: silver; 
-    border: 3px solid black;
-}
+/*    transition-duration: 0.4s;*/
+/*    cursor: pointer;*/
+/*    background-color: green; */
+/*    color: silver; */
+/*    border: 3px solid black;*/
+/*}*/
 
-.button:hover {
-    background-color: gold;
-    color: brown;
-}
+/*.button:hover {*/
+/*    background-color: gold;*/
+/*    color: brown;*/
+/*}*/

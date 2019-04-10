@@ -4,14 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Доставка</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
         <nav>
             <a href="index.html">Головна</a>
+            <a href="#delivery"> Доставка і оплата</a>
         </nav>
     </header>
-    
+    <div class="delivery-background">
+         <img src="img/delivery/delivery-background.jpg" alt="тальк гель золота цукрова паста"></img>
+    </div>
+    <div id="contact-with-us" class="to-mail">
+        <h1>Реєстраційна форма</h1>
+            <form method="POST" action="https://formspree.io/maryanvoznyak@gmail.com">
+                <label for="client-name">ПІБ</label>
+                  <input id="client-name" type="text" placeholder="Прізвище ім'я та по-батькові"
+                  name="client-name" required>
+                <label>
+                    Електронна адреса <input type="email" placeholder="Eлектронна адреса"
+                      name="client-email" required>
+                </label> 
+                <br>
+                <textarea rows="15" cols="30"></textarea>
+                <br>
+                <label>
+                    Відправити <input type="submit">
+                </label>
+            </form>
+    </div>
 </body>
 </html>
