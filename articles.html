@@ -1,67 +1,175 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Доставка</title>
+    <title>Де-Люкс</title>
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Головна</a>
-            <a href="#article1">Статті</a>
-        </nav>
+    <header class="container" id="home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">De-Luxe</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Головна <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Товари</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="delivery.html">Доставка і оплата</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="articles.html">Статті</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Контакти</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <a class="nav-link" href="#cartModal" data-toggle="modal">
+                          <i class="fas fa-cart-arrow-down"></i>
+                            Корзина<span id="cart-badge" class="badge badge-light"></span>
+                        </a>
+                    </div>    
+                </div>
+            </nav>
     </header>
-    <div class="articles-background">
-         <img src="img/articles/article-background.jpg" alt="тальк гель
-         золота цукрова паста"></img>
+            
+    <div id="articles" class="article1">
+        <h6><b>Що можна і чого не варто робити зцукровою пастою.</b></h6>
+        <img class="left" src="img/articles/article.jpg" alt="золота цукрова паста">
+            <p><ul>
+                <li>Перша груба помилка – це видалення волося проти росту.</li>
+                <br>
+                  <p>На жаль, у відеороликах та у деяких салонах краси,де проводжу
+                     підвищення кваліфікації мені доводиться бачити горе майстрів,
+                     які поводяться з цукровою пастою як з воском, тобто видаляють
+                     її проти росту волосся. Робити цього категорично не можна. 
+                     Адже цукрова паста тим і відрізняється від воску, що вона
+                     видаляється по росту волосся  і не «вивертає» волосяний
+                     фолікул, а одже і не провокує вростання волосся. Майстри,
+                     які працюють проти росту волосся, зводять нанівець більшість
+                     переваг шугарінгу.
+                  </p>
+                <li>Друга помилка – це невірно підібрана щільність пасти.</li>
+                <br>
+                  <p>У майстра мають бути мягка, середня та тверда плотності. 
+                     Мягка для пушкового волосся, типу верхня губа, руки. Середня
+                     для зони бікіні, пашок. І тверда, яка підмішується  при потребі
+                     у процесі роботи, або використовується на дуже жорстке коротке
+                     волосся. Якщо наприклад  обрати тверду пасту і робити нею 
+                     повністю  ноги, то майстер буде дуже втомлювати свої руки і
+                     робота перестане бути йому милою. І якщо навпаки обрати мягку
+                     пасту на щетинисте  волосся, то вона буде «проскользувати»  і
+                     одну і ту саму ділянку доведеться проходити не один раз, що 
+                     буде збільшувати тривалість процедури і зайвий раз травмувати
+                     шкіру. Ще існує ультра мягка паста, її не варто використовувати
+                     початківцям. Ця паста використовується для швидкісних технік,
+                     але потребує  вже добрих навичок у шугарінгу.
+                  </p>
+                <li>Третя помилка – це додавання води до щільної пасти для
+                того щоб помякшити її.</li>
+                <br>
+                    <p>На жаль люди що пропагують «самоварний» шугарінг, зваривши
+                      щось що нагадує льодяник, намагаються врятувати своє творіння,
+                      яке на наноситься на шкіру, додавши туди трохи окропу, або 
+                      змочити шкіру перед початком роботи. Робити цього не варто, адже
+                      вода розбавить цукрову пасту і зробить її менш ефективною. Питання
+                      м’якої або більш щільної пасти добре вирішено у виробників 
+                      професійної пасти, яка до того ж буде набагато пластичніша і
+                      зручніша у використанні. До речі якісну пасту просто нереально
+                      зварити дома, оскілька виготовляється вона не з цукру, а з 
+                      фруктори і у ваукуумних умовах. Це суттєво впливає на її 
+                      пластичність, а одже і на розхід. Тому професійний поважаючий
+                      себе майстер ніколи не буде використовувати самовар.
+                    </p>
+                </ul>
     </div>
-    <div id="article1" class="text-articles">
-        <h3>Що можна і чого не варто робити зцукровою пастою.</h3>
-        <ul>
-            <li>Перша груба помилка – це видалення волося проти росту.</li>
-              <p>На жаль, у відеороликах та у деяких салонах краси,де проводжу
-                 підвищення кваліфікації мені доводиться бачити горе майстрів,
-                 які поводяться з цукровою пастою як з воском, тобто видаляють
-                 її проти росту волосся. Робити цього категорично не можна. 
-                 Адже цукрова паста тим і відрізняється від воску, що вона
-                 видаляється по росту волосся  і не «вивертає» волосяний
-                 фолікул, а одже і не провокує вростання волосся. Майстри,
-                 які працюють проти росту волосся, зводять нанівець більшість
-                 переваг шугарінгу.
-              </p>
-            <li>Друга помилка – це невірно підібрана щільність пасти.</li>
-              <p>У майстра мають бути мягка, середня та тверда плотності. 
-                 Мягка для пушкового волосся, типу верхня губа, руки. Середня
-                 для зони бікіні, пашок. І тверда, яка підмішується  при потребі
-                 у процесі роботи, або використовується на дуже жорстке коротке
-                 волосся. Якщо наприклад  обрати тверду пасту і робити нею 
-                 повністю  ноги, то майстер буде дуже втомлювати свої руки і
-                 робота перестане бути йому милою. І якщо навпаки обрати мягку
-                 пасту на щетинисте  волосся, то вона буде «проскользувати»  і
-                 одну і ту саму ділянку доведеться проходити не один раз, що 
-                 буде збільшувати тривалість процедури і зайвий раз травмувати
-                 шкіру. Ще існує ультра мягка паста, її не варто використовувати
-                 початківцям. Ця паста використовується для швидкісних технік,
-                 але потребує  вже добрих навичок у шугарінгу.
-              </p>
-            <li>Третя помилка – це додавання води до щільної пасти для
-            того щоб помякшити її.</li>
-                <p>На жаль люди що пропагують «самоварний» шугарінг, зваривши
-                  щось що нагадує льодяник, намагаються врятувати своє творіння,
-                  яке на наноситься на шкіру, додавши туди трохи окропу, або 
-                  змочити шкіру перед початком роботи. Робити цього не варто, адже
-                  вода розбавить цукрову пасту і зробить її менш ефективною. Питання
-                  м’якої або більш щільної пасти добре вирішено у виробників 
-                  професійної пасти, яка до того ж буде набагато пластичніша і
-                  зручніша у використанні. До речі якісну пасту просто нереально
-                  зварити дома, оскілька виготовляється вона не з цукру, а з 
-                  фруктори і у ваукуумних умовах. Це суттєво впливає на її 
-                  пластичність, а одже і на розхід. Тому професійний поважаючий
-                  себе майстер ніколи не буде використовувати самовар.
-                </p>
-        </ul>
+                        
+        <footer class="contact-container">
+        <h5 id="contacts">Ми в соцмережах</h5>
+        <section class="social">
+              <ul class="list-inline">
+                <li>
+                  <a href="http://www.facebook.com/Офіційний-дистрибютор-DE-LUXE-1220533761431237/">
+                      <i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="http://picdeer.com/deluxe.sugaring">
+                      <i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+        </section>
+        <section>
+            <h7>Дзвоніть</h7>
+            <p>096-733-20-65</p>
+            <p>093-219-51-18</p>
+            <h7>Пишіть</h7>
+            <p>estetkrasa@gmail.com</p>
+        </section>
+    </footer>
+    
+    <section>
+       <p>Created by <b>Arguna</b></p>
+    </section>
     </div>
+    
+   <!-- Modal Cart -->
+    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Закрити">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="cart-product-list-container"></div>
+            <hr>
+            <div class="container">
+              <form>
+                <div class="form-group row">
+                  <label for="client-name" class="col-4 col-form-label">Ваше ім'я:</label>
+                  <input class="form-control col-8" type="text" id="client-name" required>
+                </div>
+                <div class="form-group row">
+                  <label for="client-email" class="col-4 col-form-label">Ваш email:</label>
+                  <input class="form-control col-8" type="email" id="client-email" required>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+            <button class="btn btn-primary order">Замовити</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+    
+    <script async src="js/smooth-scroll.js"></script>
+    <script async src="js/alert-window.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/product-list.js"></script>    
+    <script defer src="js/index.js"></script>
+    
 </body>
 </html>

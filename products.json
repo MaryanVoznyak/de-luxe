@@ -1,0 +1,93 @@
+[
+    {
+        "id": "1",
+        "title": "Цукрова паста Gold Soft",
+        "image": "pasta.jpg",
+        "description": "500 гр",
+        "price": 199
+    },
+    {
+        "id": "2",
+        "title": "Цукрова паста Gold Soft",
+        "image": "pasta.jpg",
+        "description": "1 000 гр",
+        "price": 399
+    },
+    {
+        "id": "3",
+        "title": "Цукрова паста Gold Soft",
+        "image": "pasta.jpg",
+        "description": "1 500 гр",
+        "price": 600
+    },
+    {
+        "id": "4",
+        "title": "Цукрова паста Hard",
+        "image": "pasta.jpg",
+        "description": "500 гр",
+        "price": 229.99
+    },
+    {
+        "id": "5",
+        "title": "Цукрова паста Hard",
+        "image": "pasta.jpg",
+        "description": "1 000 гр",
+        "price": 729.99
+    },
+    {
+        "id": "6",
+        "title": "Цукрова паста Hard",
+        "image": "pasta.jpg",
+        "description": "1 500 гр",
+        "price": 829.99
+    },
+    {
+        "id": "7",
+        "title": "Цукрова паста Medium",
+        "image": "pasta.jpg",
+        "description": "500 гр",
+        "price": 99999.99
+    },
+    {
+        "id": "8",
+        "title": "Цукрова паста Medium",
+        "image": "pasta.jpg",
+        "description": "1 000 гр",
+        "price": 249999.99
+    },
+    {
+        "id": "9",
+        "title": "Цукрова паста Medium",
+        "image": "pasta.jpg",
+        "description": "1 500 гр",
+        "price": 2499999.99
+    },
+    {
+        "id": "10",
+        "title": "Молочко",
+        "image": "milk.jpg",
+        "description": "250 гр",
+        "price": 99.99
+    },
+    {
+        "id": "11",
+        "title": "Молочко",
+        "image": "milk.jpg",
+        "description": "200 гр",
+        "price": 99.99
+    },
+    {
+        "id": "12",
+        "title": "Рукавички гумові",
+        "image": "cloves.jpg",
+        "description": "100 шт",
+        "price": 120.00
+    },
+    {
+        "id": "13",
+        "title": "Шпатель металевий",
+        "image": "spatula.jpg",
+        "description": "1 шт",
+        "price": 88.99
+    }
+]
